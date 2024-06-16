@@ -49,7 +49,7 @@ def download_audio():
         # remover o arquivo WebM original
         os.remove(download_path)
 
-        status_label.config(text="Conversão e download para MP3 concluídos com sucesso!",
+        status_label.config(text="Download e conversão para MP3 concluídos com sucesso!",
                             foreground="#4CAF50")  # cor verde
         save_path_label.config(text=f"Salvo em: {mp3_path}",
                                     foreground="#8A2BE2")  # cor roxa
@@ -94,7 +94,7 @@ style.configure('TLabel', background=cor_fundo, foreground='#34495E', font=('Ari
 placeholder_text = "Digite ou cole o link aqui:"
 
 # layout
-texto_orientacao = ttk.Label(janela, text="Converta e baixe vídeos do YouTube em formato MP3", style='TLabel')
+texto_orientacao = ttk.Label(janela, text="Baixe e converta vídeos do YouTube em formato MP3", style='TLabel')
 texto_orientacao.grid(column=0, row=0, pady=(20, 5), padx=10)
 
 url_entry = ttk.Entry(janela, width=78, foreground="grey")
