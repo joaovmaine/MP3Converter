@@ -6,10 +6,14 @@ Este é um programa executável codificado em Python para baixar e converter ví
 
 # Instruções
 
-1. Faça download do executável (windows): https://drive.google.com/drive/folders/1KRIvPdI3UWHkBKRDnLBAUXwuOCLuAM5O?usp=drive_link
-2. Digite ou cole a URL do vídeo do YouTube no campo solicitado.
-3. O script te dará a opção de escolher a pasta para download.
-4. O script baixará e realizará a conversão do vídeo em MP3, apagando o vídeo originalmente baixado em WebM/MP4.
-5. Repita o processo para baixar e converter mais vídeos em MP3.
+1. Faça download dos pacotes necessários ffmpeg e ffprobe (windows): https://drive.google.com/drive/folders/1HTusFhyP6WaljZDNKNQl2FiLWU7zVDrO?usp=drive_link
+2. Em seguida instale os pacotes no Path de usuário do windows (gravei um vídeo ensinando como fazer isso): https://drive.google.com/file/d/1ZuiGdJgxMRUcCm982iz4pKJqcDOEUduO/view?usp=drive_link
+3. Faça download do executável (windows): https://drive.google.com/file/d/1HxKBVa6dJbRC3hn9rsqeykkL4ViZ7Vbp/view?usp=drive_link
+4. Digite ou cole a URL do vídeo do YouTube no campo solicitado.
+5. O script te dará a opção de escolher a pasta para download.
+6. O script baixará e realizará a conversão do vídeo em MP3, apagando o vídeo originalmente baixado em WebM/MP4.
+7. Repita o processo para baixar e converter mais vídeos em MP3.
 
-Aproveite! ❤️
+OBS: Todos esses passos são importantes, pois, sem a configuração do Path ffmepg no sistema, por exemplo, não seria possível realizar a conversão para .mp3, os vídeos ficariam convertidos em .mp4 /ou .webm.
+
+Obrigado e aproveite! ❤️
